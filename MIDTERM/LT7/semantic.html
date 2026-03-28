@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <style>
+  * {
+    box-sizing:border box;
+  }
+  body
+  {
+    margin:0px;
+  }
+  header
+  {
+    background-color: lightblue;
+    height : 100px;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  #navbar1 ul
+  {
+    list-style-type: none;
+    margin:0;
+    padding:10;
+    overflow: hidden;
+    background-color: gray;
+    
+  }
+  #navbar1 li
+  {
+    float: left;
+  }
+  #navbar1 a 
+  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  #navbar1 li a:hover
+  {
+    background-color: lightblue;
+  }
+  #navbar2 ul
+  {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  #navbar2 li a
+  {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    background-color: pink;
+    text-align: center;
+    margin:3px;
+    border-radius: 5px;
+  }
+  #navbar2 li a:hover
+  {
+    background-color: lightblue;
+  }
+    
+  main
+  {
+    background-color:white;
+    height: 50px;
+  }
+  
+ aside 
+  {
+    background-color: white;
+    width: 33%;
+    float: left;
+    margin :0px;
+    padding: 5px;
+    
+  
+  }
+  section
+  {
+    background-color: white;
+    width: 30%;
+    float: left;
+    margin :0px;
+    padding: 0px;
+    
+
+   
+  }
+  article 
+  {
+    background-color: white;
+    width: 30%;
+    float: left;
+    margin :0px;
+    padding: 5px;
+  
+  }
+  footer
+  {
+    background-color: lightblue;
+    clear:both;
+    text-align: center;
+    height: 100px;
+    padding: 15px;
+  }
+  
+  @media screen and(max-width:600px)
+  {
+  #aside,#section,#article{
+    width:100px;}
+  }
+  
+  </style>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>labtask 7</title>
+</head>
+<body>
+  
+  <header>
+    <h1> This is Header</h1>
+    
+  </header>
+ 
+  <nav id="navbar1">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+    <nav id="navbar2">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+ 
+  <aside>
+    <h2> Aside</h2>
+    <p> loreem ipsum gdveueuhsvr hdbdbshbs hsyzvjxifues uysvejdishw haygeheud usyevejdis sjshveeu7e  skudvdhe jsushdveve sjusgdve  </p>
+    <p> loreem ipsum gdveueuhsvr hdbdbshbs hsyzvjxifues uysvejdishw haygeheud usyevejdis sjshveeu7e  skudvdhe jsushdveve sjusgdve  </p>
+
+  </aside>
+
+  
+  <section>
+    <h2> Section</h2>
+    <p> loreem ipsum gd hajdvbeus haiushdbe jahsbev uusuzge jajshvde jiasbbsvvr hdbdbshbs hsyzvjxifues uysvejdishw haygeheud usyevejdis sjshveeu7e  skudvdhe jsushdveve sjusgdve  </p>
+    <p> jsuzhvsus jdbebshsh</p>
+    
+  </section>
+  <article>
+    <h2> Article</h2>
+    <p> loreem ipsum gdveu dhduhebeus sjisushde  jaub sjjzbeus ushvsvdhsdber hdbdbshbs hsyzvjxifues uysvejdishw haygeheud usyevejdis sjshveeu7e  skudvdhe jsushdveve sjusgdve  </p>
+    <p> jdudueh jsuzhdbbe</p>
+    
+  </article>
+</body>
+<footer>
+  <h2> This is a footer</h2>
+</footer>
+</html>
